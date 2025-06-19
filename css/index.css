@@ -78,3 +78,10 @@ img {
     flex-direction: column;
     gap: 20px;
 }
+
+.mochila {
+    background-color: rgba(74, 207, 130, 0.425);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
