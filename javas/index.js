@@ -34,8 +34,10 @@ if (decision === "supermercado") {
     setTimeout(() => {
         jugador.vida--;
     document.getElementById("numero-vida").innerText = jugador.vida;
-    jugador.mochila.push("agua" + "comida")
-    document.getElementById("elementos-mochila").innerText = jugador.mochila;
+    jugador.mochila.push("agua "," comida ")
+
+    document.getElementById("elementos-mochila").innerText = jugador.mochila.join("\n");
+
     alert("has perdido una vida pero has encontrado comida y agua")
     },4000)
     
